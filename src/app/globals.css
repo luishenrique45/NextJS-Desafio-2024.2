@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;   
+@layer components{
+    .fundologin{
+        background-image: url(/fundoL/fundologin.png); 
+        background-repeat:no-repeat ; 
+        background-size:cover ;
+    }
+}
+@layer components{
+    .fundop{
+        background-image: url(/fundoProdutos/fundop.png); 
+        background-repeat:no-repeat ; 
+        background-size:cover ;
+    }
+}
